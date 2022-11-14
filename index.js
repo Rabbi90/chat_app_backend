@@ -7,7 +7,7 @@ const server = http.createServer(app)
 
 const config = require('./config/config');
 const AuthRouter = require('./routes/Auth.routes');
-const OtherRouter = require('./routes/Other.routes');
+const OtherRouter = require('./routes/other.routes');
 const MessageRouter = require('./routes/Message.routes');
 const { URL } = require('./Global/Contants');
 const PORT = config.app.port

@@ -1,3 +1,3 @@
-let URL = 'http://localhost:3000'
+let URL = 'https://universal-chats.netlify.app'
 
 module.exports = { URL }
